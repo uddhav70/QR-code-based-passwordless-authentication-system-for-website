@@ -1,0 +1,245 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+th {
+  height: 50px;
+}
+table, th, td {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #5c5c3d;
+}
+body {
+    background: url(../images/back.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+/*#login-form{
+	position: relative;
+	width: 25%;
+	height: auto;
+	margin: 10% auto;
+	border-radius: 5px;
+	border:1px solid grey;
+	align-content: center;
+}*/
+input[type=text], input[type=password], input[type=email], select[name=question]{
+	width: 250px;
+	height: 30px;
+	margin: 10px;
+	padding: 5px;
+    border-radius: 5px;
+}
+input[type=submit]{
+	width: 70px;
+	height: 30px;
+	margin-top: 10px;
+	color: #fff;
+	background-color: #004280;
+	border-radius: 4px;
+	border: 1px solid #004280;
+}
+/*#login-form div:first-child {
+	width: 100%;
+	height: 40px;
+	background-color: #004280;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+    border-radius: 5px;
+}
+#login-form div {
+	text-align: center;
+}
+#login-form div a, #register a {
+	background-color: #004280;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+#login-form div:last-child {0
+	margin: 10px;
+}*/
+#register {
+	position: relative;
+	width: 50%;
+	height: auto;
+	margin: 10% auto;
+	border-radius: 5px;
+	border:1px solid #804000;
+	text-align: center;
+	padding: 10px;
+    -webkit-box-shadow: 10px 10px 10px #004280;
+    -moz-box-shadow: 10px 10px 10px #004280;
+    box-shadow: 10px 10px 10px #004280;
+}
+#register span {
+	color: red;
+}
+#register-submit {
+    background-color: #004280;
+    border: 1px solid #004280
+}
+
+/*user dashboard*/
+ul {
+    width: 50%;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+}
+
+li {
+    float: left;
+}
+ul li:first-child a {
+    color: #000;
+    text-decoration: underline;
+} 
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ /*Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #008CBA;
+    color: #fff;
+}
+li a:active {
+    text-decoration: underline;
+    color: #fff;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+th {
+  height: 50px;
+  text-transform: uppercase;
+}
+#display-content {
+    width: 90%;
+    margin: 5% auto;
+    /*background: #fff;*/
+    padding: 15px;
+    border-radius: 10px;
+}
+#display-content p{
+    color: #fff;
+    font-size: 21px;
+}
+#display-content table {
+    width: 90%;
+    margin: 5% auto;
+}
+/*input[type=file] {
+    border-radius: 3px;
+    border:1px solid black;
+}*/
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: black;
+    /*background-color: #d3394c;*/
+    display: inline-block;
+    padding: 5px;
+}
+
+/*.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+.inputfile + label {
+    cursor: pointer;    "hand" cursor 
+}*/
+.inputfile:focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+#files-upload {
+    width: 30%;
+    height: 30%;
+    margin: 10%  auto;
+
+}
+#files-upload form{
+    background: #fff;
+    padding: 9%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background: #e0e0d1;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table>tbody>tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+table>tbody>tr:nth-of-type(even) {
+  background-color: #ddd;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, table>thead>tr>td, table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
